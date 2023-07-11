@@ -2,6 +2,13 @@
     margin:0px;
     padding:0px;
 }
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.b_g_b{
+    background-color: #00308F;;
+}
 .back_container{
     position: relative;
     height:100vh;
@@ -15,19 +22,19 @@ height:100vh;
 background-color: #A4DDED;
 height:100vh;
 }
+/* front  container  */
 .front_container{
     height:88vh;
     position: absolute;
     left:6%;
     top:6%;
     width: 88vw;
-    background-color: white;
+    background-color: #F0F8FF;
     border-radius: 32px;
     padding-left: 54px;
     padding-top:  50px;
 }
 .icon_part{
-    background-color: #00308F;
     height: 97%;
     border-radius: 82px;
     position: relative;
@@ -77,4 +84,200 @@ height:100vh;
     height:100%;
     object-fit: cover;
     border-radius: 50%;
+}
+.main_content{
+    margin-left:100px;
+    margin-right:60px;
+}
+.search{
+    position:relative;
+}
+.search input{
+    width: 1280px;
+    height: 150px;
+    border: unset;
+    border-radius:  54px;
+    margin-top: 52px;
+    font-size: 40px;
+    padding-left: 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.search .search_glass{
+    position: absolute;
+    left: 60px;
+    top: 105px;
+    font-size: 50px;
+    color:grey;
+}
+
+.filters{
+    position: absolute;
+    left: 1004px;
+    bottom: 38px;
+    font-size: 40px;
+    color:  #00308F;
+    padding: 14px 46px;
+    background-color: #F0F8FF;
+    border-radius:18px;
+}
+
+.bell{
+    position:absolute;
+    background-color: #FFF;
+    font-size: 48px;
+    right: 140px;
+    bottom: 18px;
+    padding: 35px 45px;
+    border-radius: 40%;
+    color: black;
+}
+.bell i{
+    color:  #00308F;
+}
+#money{
+    margin-top:  80px;
+    margin-left: 10px;
+    font-size: 48px;
+    font-weight:bold;
+}
+.top_left_card{
+    background-color: white;
+    height:460px;
+    margin-top:30px;
+    border-radius: 38px;
+}
+.top_right_card{
+    height:460px;
+    margin-top:30px;
+    margin-left:90px;
+    border-radius: 38px;
+    position:relative;
+    overflow: hidden;
+}
+.visa_logo{
+    left:15px;
+    width: 77px;
+    height: 74px;
+    position: absolute;
+    bottom: 12px;
+    background-color:  #F0F8FF;
+}
+.visa_selector{
+    position:relative;
+    height: 110px;
+    border: 0.01px solid #D3D3D3;
+    border-radius: 18px;
+    font-size:40px;
+    text-align:center;
+    padding-top:28px;
+    color:grey;
+}
+.visa_logo img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+.visa_drop_down{
+    position:absolute;
+    color:grey;
+    right:22px;
+    bottom:15px;
+}
+.active_balance{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#active_balance{
+    font-size:50px;
+    color:grey;
+    margin-top: 120px;
+}
+#active_balance span{
+    color:black;
+}
+#amount{
+    font-size:50px;
+     color:grey;
+}
+.send_money{
+    text-align:right;
+    margin-top: 48px;
+}
+.send_money p{
+    font-size: 65px;
+    color: black;
+}
+.send_money button{
+    color: white;
+    background-color:  #00BFFF;
+    padding: 22px 30px 22px 30px;
+    border: unset;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-top:38px;
+    font-family: 'Roboto',sans-serif;
+}
+.circle{
+     position:absolute;
+     border-radius:50%;
+     background-color: #6082B6;
+     width:380px;
+     height:380px;
+     right: -79px;
+     top: -69px;
+}
+.top_right_card p{
+    color: #B0C4DE;
+    font-size:58px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+#right_card_price{
+    color:white;
+    font-weight: bold;
+    font-size: 68px;
+}
+.line_one{
+    position:absolute;
+    background-color: white;
+    padding:8px;
+    border-radius:10px;
+    width:69%;
+    bottom:54px;
+    left: 72px;
+}
+.line_two{
+    position:absolute;
+    background-color: #6082B6;;
+    padding:8px;
+    border-radius:10px;
+    width:24%;
+    bottom: 54px;
+    right: 58px;
+}
+.center_card{
+    margin-top:90px;
+    display:flex;
+    justify-content: space-around;
+}
+.center_card_a{
+    height:380px;
+    background-color:white;
+    width: 860x !important;
+    border-radius: 22px;
+    margin-left:-90px;
+}
+.center_card_b{
+    height:380px;
+    background-color:white;
+    width:880px !important;
+    border-radius: 22px;
+}
+.center_card_c{
+    height:380px;
+    background-color:white;
+    width: 880px !important;
+    border-radius: 22px;
 }
