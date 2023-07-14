@@ -5,6 +5,26 @@
 body{
     font-family: 'Roboto',sans-serif;
 }
+.fs-65{
+    font-size:68px;
+    font-weight: bold;
+}
+.f_c_g{
+    font-size:50px;
+    color:grey;
+}
+.fs-38{
+    font-size:40px;
+}
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+.bold{
+font-weight:bold;
+}
 
 .b_g_b{
     background-color: #00308F;;
@@ -136,20 +156,20 @@ height:100vh;
 .bell i{
     color:  #00308F;
 }
-#money{
-    margin-top:  80px;
+.money{
+    margin-top:  60px;
     margin-left: 10px;
-    font-size: 48px;
+    font-size: 60px;
     font-weight:bold;
 }
 .top_left_card{
     background-color: white;
-    height:460px;
+    height:415px;
     margin-top:30px;
     border-radius: 38px;
 }
 .top_right_card{
-    height:460px;
+    height:415px;
     margin-top:30px;
     margin-left:90px;
     border-radius: 38px;
@@ -206,7 +226,6 @@ height:100vh;
     margin-top: 48px;
 }
 .send_money p{
-    font-size: 65px;
     color: black;
 }
 .send_money button{
@@ -226,8 +245,10 @@ height:100vh;
      width:380px;
      height:380px;
      right: -79px;
-     top: -69px;
+     top: -75px;
 }
+
+/* top  card styling  */
 .top_right_card p{
     color: #B0C4DE;
     font-size:58px;
@@ -263,21 +284,91 @@ height:100vh;
     justify-content: space-around;
 }
 .center_card_a{
-    height:380px;
+    height:360px;
     background-color:white;
     width: 860x !important;
     border-radius: 22px;
     margin-left:-90px;
 }
 .center_card_b{
-    height:380px;
+    height:360px;
     background-color:white;
     width:880px !important;
     border-radius: 22px;
 }
 .center_card_c{
-    height:380px;
+    height:360px;
     background-color:white;
     width: 880px !important;
     border-radius: 22px;
+}
+#clock i{
+    border-radius: 50%;
+    color: green;
+    font-size: 68px;
+    background-color:  #ECFFDC;
+    padding: 28px;
+    object-position: center;
+}
+.income_this{
+margin-left:38px !important;
+margin-top:36px;
+margin-right: 38px!important;
+}
+
+.income_rate{
+    padding:10px !important;
+}
+.balance_up{
+    margin-top:30px !important;
+    padding-left:38px !important;
+}
+#outcome i{
+    border-radius: 50%;
+    color: orange;
+    font-size: 68px;
+    background-color: #FFF5EE;
+    padding: 28px;
+    object-position: center;
+}
+#files i{
+    color:#00BFFF;
+    border-radius: 50%;
+    font-size: 68px;
+    background-color: #F0F8FF;
+    padding: 28px;
+    object-position: center;
+}
+
+/* stock  graph styling */
+.graph{
+    margin-top:40px;
+}
+.stock_graph{
+    width:600px;
+    height:720px;
+    border-radius:28px;
+}
+.stock_graph img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.social_card{
+    margin-left:60px;
+    height:220px;
+    width: 1040px;
+    background-color: white;
+    border-radius:28px;
+    padding-top:18px !important;
+    padding-left: 18px !important;
+}
+.fb{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+#apple{
+    font-size:70px;
+    color:black;
 }

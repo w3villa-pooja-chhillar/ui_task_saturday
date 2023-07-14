@@ -27,11 +27,17 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@1,300&family=Quicksand:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -87,7 +93,7 @@
           </div>
         </div>
       </div>
-      <p id="money">
+      <p class="money">
         Send Money
       </p>
       <div class="row top-cards">
@@ -104,38 +110,109 @@
                   <i class="fa-solid fa-caret-down"></i>
                 </div>
               </div>
-              <p id="active_balance"> Active Balance &nbsp <span>$18,350 </span>
+              <p id="active_balance" class="f_c_g"> Active Balance &nbsp <span>$18,350 </span>
               </p>
             </div>
             <div class="col-md-5 send_money">
               <p id="amount">Amount</p>
-              <p> $800.00</p>
+              <p class="fs-65"> $800.00</p>
               <button> Send Money</button>
             </div>
           </div>
         </div>
         <div class="top_right_card b_g_b col-md-5">
           <div class="circle"></div>
-             <p>Monthy Balance</p>
-             <p id="right_card_price">$ 6,146.40</p>
-             <hr class="line_one">
-             <hr class="line_two">
+          <p>Monthy Balance</p>
+          <p id="right_card_price">$ 6,146.40</p>
+          <hr class="line_one">
+          <hr class="line_two">
         </div>
       </div>
       <div class="center_card row">
-       <div class="col-md-4 center_card_a">
-        <i class="fa-solid fa-clock-seven"></i>
-        <p>$8.242</p>
-        <p>Income in this month</p>
-        <p>Balance up by</p>
-        <span><i class="fa-sharp fa-solid fa-up"></i> +12.57%</span>
-      </div>
-       <div class="col-md-4 center_card_b">
-
+        <div class="col-md-4 center_card_a">
+          <div class="row income_this">
+            <div class="col-md-3">
+              <span id="clock">
+                <i class="fa-solid fa-clock "></i>
+              </span>
+            </div>
+            <div class="col-md-9 income_rate">
+              <span class="fs-65">$8.242</span>
+              <p class="f_c_g">Income in this month</p>
+            </div>
+          </div>
+          <div class="row fs-38 balance_up">
+            <div class="f_c_g col-md-6">Balance up by
+            </div>
+            <div class="col-md-6 green bold"><i class="fa-solid fa-arrow-up "></i>
+              +12.57%
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 center_card_b">
+          <div class="row income_this">
+            <div class="col-md-3">
+              <span id="outcome">
+                <i class="fa-solid fa-file-arrow-down"></i>
+              </span>
+            </div>
+            <div class="col-md-9 income_rate">
+              <span class="fs-65">$6.121</span>
+              <p class="f_c_g">Outcome in this month</p>
+            </div>
+          </div>
+          <div class="row fs-38 balance_up">
+            <div class="f_c_g col-md-6">Balance down by
+            </div>
+            <div class="col-md-6 red bold"><i class="fa-solid fa-arrow-up "></i>
+              +12.57%
+            </div>
+          </div>
         </div>
         <div class="col-md-4 center_card_c">
+          <div class="row income_this">
+            <div class="col-md-3">
+              <span id="files">
+                <i class="fa-solid fa-file"></i>
+              </span>
+            </div>
+            <div class="col-md-9 income_rate">
+              <span class="fs-65">$2.102</span>
+              <p class="f_c_g">Saved in this month</p>
+            </div>
+          </div>
+          <div class="row fs-38 balance_up">
+            <div class="f_c_g col-md-6">Saved up by
+            </div>
+            <div class="col-md-6 green bold"><i class="fa-solid fa-arrow-up "></i>
+              +12.57%
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="money">
+        Balance Analytics
+      </p>
+      <div class="row graph">
+        <div class="col-md-7 stock_graph">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIbsLCeIVR3gUTxV9T-uu6wx75PDnsw_Dtg&usqp=CAU">
+        </div>
+        <div class="col-md-5">
+          <div class="social_card">
+            <div class="row">
+              <div class="col-md-6">
+                <span id="apple"><i class="fa-brands fa-apple"></i></span>
+                <span>AAPL<br> Apple inc</span>
+              </div>
+              <div class="col-d-6">
 
-       </div>
+              </div>
+            </div>
+          </div>
+          <div class="social_card fb"></div>
+          <div class="social_card"></div>
+        </div>
       </div>
     </div>
     <div class="col-md-3 right_content">
